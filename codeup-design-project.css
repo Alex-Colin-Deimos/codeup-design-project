@@ -25,15 +25,32 @@ body{
 }
 
 h1{
-    font-size: 64px;
+    height: 64px;
 }
 
 h2{
-    font-size: 48px;
+    height: 48px;
 }
 
 h3{
+    height: 40px;
+}
 
+h4{
+    height: 32px;
+}
+
+h5{
+    height: 28px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 .logo-sm {
