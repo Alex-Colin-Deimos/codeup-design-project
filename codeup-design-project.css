@@ -1,3 +1,4 @@
+/*defining colors*/
 :root {
     --red-color: #E6563B;
     --orange-color: #EB9D3A;
@@ -7,23 +8,13 @@
     --grey-color: #E6E6E6;
 }
 
-html{
-    max-width: 100vw;
-}
-
+/*elements*/
+/*setting background color*/
 body{
-    background-color: #E6E6E6;
-    max-width: 100vw;
+    background-color: var(--white-color);
 }
 
-.anton {
-    font-family: 'Anton', sans-serif;
-}
-
-.abel {
-    font-family: 'Abel', sans-serif;
-}
-
+/*setting height of headers*/
 h1{
     height: 64px;
 }
@@ -44,29 +35,55 @@ h5{
     height: 28px;
 }
 
+/*defining list properties*/
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 0;
+}
+
 li{
     list-style: none;
 }
 
+/*defining anchor properties*/
 a{
     text-decoration: none;
     color: black;
 }
 
+/*classes*/
+/*two font classes*/
+.anton {
+    font-family: 'Anton', sans-serif;
+}
+
+.abel {
+    font-family: 'Abel', sans-serif;
+}
+
+/*setting parameter for logo size and position*/
 .logo-sm {
     width: 105px;
     height: 105px;
     position: absolute;
     left: calc(50% - 52.5px);
     z-index: 2;
-    top: 25px
+    top: 25px;
 
 }
 
-.icon {
-    border-radius: 9px;
+.logo-md {
+    width: 105px;
+    height: 105px;
+    position: absolute;
+    left: calc(10% - 52.5px);
+    z-index: 2;
+    top: 25px;
 }
 
+/*color classes*/
 .white-bg{
     background-color: var(--white-color);
 }
@@ -91,24 +108,54 @@ a{
     background-color: var(--blue-color);
 }
 
+/*setting height of header*/
 .header-height{
     height: 60px;
 }
 
+/*setting properties of circles*/
 .circ{
     width:100px;
     height:100px;
-    border:5px solid var(--white-color);
+    border:5px solid white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.icon {
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-small;
+}
+
+/*class to display in row*/
 .horizontal{
     display: flex;
 
 }
 
+/*setting hr width*/
 .width60{
     width : 60%;
 }
+
+/*property of images in card*/
+.pic{
+    border: 10px solid var(--grey-color);
+    border-radius: 5px;
+}
+
+/*image card properties*/
+.card{
+    background-color: var(--white-color);
+}
+
+.card-img-top{
+    width: 260px;
+    height: 180px;
+}
+

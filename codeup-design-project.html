@@ -1,49 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!--    meta tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!--    title tag-->
     <title>Codeup Design Project</title>
+<!--    bootstrap cdn-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel|Anton&display=swap">
     <link rel="stylesheet" href="codeup-design-project.css">
 </head>
 <body>
-    <img src="img/logo.png" alt="" class="logo-sm ">
+<!--    HEADER-->
+<!--setting logo for different displays-->
+    <img src="img/logo.png" alt="" class="logo-sm d-md-none">
+    <img src="img/logo.png" alt="" class="logo-md d-none d-md-block">
+<!--white bar in header-->
     <div class="container-fluid">
             <div class="row white-bg mt-5 header-height">
                 <div class="col text-center">&emsp;</div>
             </div>
     </div>
+<!--company name and navbar for mobile-->
     <div class="container d-md-none">
+<!--        company name-->
         <div class="row text-center mt-4">
             <div class="col"><h1 class="abel">codeup design</h1></div>
         </div>
+<!--        navbar-->
         <div class="row text-center mt-3">
             <div class="col"></div>
             <div class="col"><a href="#" class="abel mr-3">SERVICES</a><a href="#" class="abel mr-3">WORK</a><a href="#" class="abel mr-3">BLOG</a><a href="#" class="abel">CONTACT</a></div>
             <div class="col"></div>
         </div>
     </div>
+<!--page title for all displays-->
     <div class="container-fluid">
         <div class="row text-center mt-5">
             <div class="col"><h1 class="anton">VISUAL DESIGN & WEB DEVELOPMENT</h1></div>
         </div>
     </div>
+<!--city for all displays-->
     <div class="container-fluid">
         <div class="row text-center mt-5 mt-sm-3">
             <div class="col"><h3 class="anton">FROM PARK CITY, UTAH</h3></div>
         </div>
+<!--        cicles for mobile-->
         <div class="row justify-content-center d-sm-none mt-3">
             <div class="col-12 horizontal justify-content-center">
                 <div class="circ rounded-circle anton red-bg white-text">DESIGN</div>
                 <div class="circ rounded-circle anton orange-bg white-text">DEVELOP</div>
             </div>
-            <div class="col-12 horizontal justify-content-center">
+            <div class="col-12 horizontal justify-content-center mb-5">
                 <div class="circ rounded-circle anton green-bg white-text">SUPPORT</div>
                 <div class="circ rounded-circle anton blue-bg white-text">HOST</div>
             </div>
         </div>
+<!--        circles for small and above-->
         <div class="row justify-content-center d-none d-sm-flex">
             <div class="col horizontal justify-content-center">
                 <div class="circ rounded-circle anton red-bg white-text">DESIGN</div>
@@ -52,13 +66,32 @@
                 <div class="circ rounded-circle anton blue-bg white-text">HOST</div>
             </div>
         </div>
+<!--        horizontal break for small-->
         <div class="row justify-content-center d-none d-sm-block">
             <div class="col">
                 <hr class="width60">
             </div>
         </div>
+<!--        bottom card for mobile-->
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col text-center abel mb-3">SELECTED WORK</div>
+            </div>
+            <div class="card ml-auto mr-auto border-0 " style="width: 260px;">
+                <img class="card-img-top pic" src="img/apple-ipad.jpg" alt="">
+                <div class="horizontal mt-1">
+                        <span class="abel justify-content-start">FEATURED PROJECT</span>
+                        <ul class="ml-auto">
+                            <li class="icon rounded-circle anton red-bg ml-1">D</li>
+                            <li class="icon rounded-circle anton orange-bg ml-1">D</li>
+                            <li class="icon rounded-circle anton green-bg ml-1">S</li>
+                            <li class="icon rounded-circle anton blue-bg ml-1">H</li>
+                      </ul>
+                </div>
+            </div>
+        </div>
     </div>
-
+<!--bootstrap javascript-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
