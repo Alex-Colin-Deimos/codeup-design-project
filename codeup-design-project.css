@@ -71,6 +71,44 @@ a{
     background-color: var(--white-color);
 }
 
+.white-text{
+    color: var(--white-color);
+}
+
+.orange-bg{
+    background-color: var(--orange-color);
+}
+
+.red-bg{
+    background-color: var(--red-color);
+}
+
+.green-bg{
+    background-color: var(--green-color);
+}
+
+.blue-bg{
+    background-color: var(--blue-color);
+}
+
 .header-height{
     height: 60px;
+}
+
+.circ{
+    width:100px;
+    height:100px;
+    border:5px solid var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.horizontal{
+    display: flex;
+
+}
+
+.width60{
+    width : 60%;
 }
