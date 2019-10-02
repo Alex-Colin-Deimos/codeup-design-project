@@ -1,0 +1,29 @@
+:root {
+    --red-color: #E6563B;
+    --orange-color: #EB9D3A;
+    --green-color: #7CB06C;
+    --blue-color: #00ABA9;
+    --white-color: #F0F0F0;
+    --grey-color: #E6E6E6;
+}
+
+body{
+    background-color: #E6E6E6;
+}
+
+.anton {
+    font-family: 'Anton', sans-serif;
+}
+
+.abel {
+    font-family: 'Abel', sans-serif;
+}
+
+.logo {
+    width: 105px;
+    height: 105px;
+}
+
+.icon {
+    border-radius: 9px;
+}
