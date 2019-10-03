@@ -6,6 +6,7 @@
     --blue-color: #00ABA9;
     --white-color: #F0F0F0;
     --grey-color: #E6E6E6;
+    box-sizing: border-box;
 }
 
 /*elements*/
@@ -91,6 +92,14 @@ i{
     top: 25px;
 }
 
+.logo-lg {
+    width: 105px;
+    height: 105px;
+    position: absolute;
+    left: calc(15% - 52px);
+    z-index: 2;
+    top: 25px;
+}
 /*color classes*/
 .white-bg{
     background-color: var(--white-color);
@@ -199,3 +208,8 @@ i{
     padding-left:35%;
 }
 
+/*to fix text cutoff on the left*/
+.left15px{
+    position: relative;
+    left: 15px;
+}
