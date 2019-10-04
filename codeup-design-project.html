@@ -13,126 +13,107 @@
     <link rel="stylesheet" href="codeup-design-project.css">
 </head>
 <body>
-<!--logo absolutely positioned for medium size and up-->
-<img src="img/logo.png" alt="" class="logo-md d-none d-md-block d-lg-none">
-<img src="img/logo.png" alt="" class="logo-lg d-none d-lg-block">
-<!--entire page is a row for large and extra large columns-->
-<div class="row">
-<!--    extend white bar to encompass columns-->
-    <div class="d-none d-lg-block col p-0">
-        <div class="container-fluid">
-            <div class="row bg-white mt-5 header-height justify-content-center"></div>
-        </div>
-    </div>
-    <div class = "col-md-12 col-lg-9 p-0">
-<!--           HEADER-->
-<!--       setting logo for different displays-->
-        <img src="img/logo.png" alt="" class="logo-sm d-md-none">
-<!--       white bar in header-->
-        <div class="container-fluid">
-            <div class="row bg-white mt-5 header-height justify-content-center">
-<!--                nav bar for small screen-->
-                <div class="col-5 d-none d-sm-block d-md-none text-center align-self-center mr-3"><a class = "abel" href="#">SERVICE</a>&emsp;&emsp;<a class = "abel" href="#">WORK</a></div>
-                <div class="col-5 d-none d-sm-block d-md-none text-center align-self-center ml-3"><a href="#" class = "abel">BLOG</a>&emsp;&emsp;<a class = "abel" href="#">CONTACT</a></div>
-<!--                company name for medium screen-->
-                <div class="col d-none d-md-block d-lg-none align-self-center abel"><h3 class="m-0 pl-6">codeup design</h3></div>
-<!--                company name for large screen-->
-                <div class="col d-none d-lg-block align-self-center abel"><h3 class="m-0 ml-5 pl-5">codeup design</h3></div>
-<!--                nav bar for medium and larger screens-->
-                <div class="col d-none d-md-block align-self-center">
-                    <nav>
-                        <ul class="justify-content-end m-0">
-                            <li class="pl-4"><a href="#" class="abel">SERVICES</a></li>
-                            <li class="pl-4"><a href="#" class="abel">WORK</a></li>
-                            <li class="pl-4"><a href="#" class="abel">BLOG</a></li>
-                            <li class="pl-4 mr-3"><a href="#" class="abel">CONTACT</a></li>
-                        </ul>
-                    </nav>
-                </div>
+    <!--logo absolutely positioned for medium size and up-->
+    <img src="img/logo.png" alt="" class="logo-md d-none d-md-block d-lg-none">
+    <img src="img/logo.png" alt="" class="logo-lg d-none d-lg-block">
+    <!--entire page is a row for large and extra large columns-->
+    <div class="row">
+    <!--    extend white bar to encompass columns-->
+        <div class="d-none d-lg-block col p-0">
+            <div class="container-fluid">
+                <div class="row bg-white mt-5 header-height justify-content-center"></div>
             </div>
         </div>
-<!--        company name and navbar for mobile-->
-        <div class="container d-md-none">
-<!--               mobile's company name-->
-            <div class="row text-center mt-4">
-                <div class="col"><h1 class="abel">codeup design</h1></div>
-            </div>
-<!--               mobile's navbar-->
-            <div class="row text-center mt-3 d-sm-none">
-                <div class="col"></div>
-                <div class="col"><a href="#" class="abel mr-3">SERVICES</a><a href="#" class="abel mr-3">WORK</a><a href="#" class="abel mr-3">BLOG</a><a href="#" class="abel">CONTACT</a></div>
-                <div class="col"></div>
-            </div>
-        </div>
-<!--        page title for all displays-->
-        <div class="container-fluid">
-            <div class="row text-center mt-5">
-                <div class="col"><h1 class="anton">VISUAL DESIGN & WEB DEVELOPMENT</h1></div>
-            </div>
-        </div>
-
-        <div class="container-fluid">
-            <!--        city for all displays-->
-            <div class="row text-center mt-5 mt-sm-3">
-                <div class="col"><h3 class="anton">FROM PARK CITY, UTAH</h3></div>
-            </div>
-<!--                cicles for mobile-->
-            <div class="row justify-content-center d-sm-none mt-3">
-                <div class="col-12 horizontal justify-content-center">
-                    <div class="circ rounded-circle anton red-bg white-text">DESIGN</div>
-                    <div class="circ rounded-circle anton orange-bg white-text">DEVELOP</div>
-                </div>
-                <div class="col-12 horizontal justify-content-center mb-5 ">
-                    <div class="circ rounded-circle anton green-bg white-text">SUPPORT</div>
-                    <div class="circ rounded-circle anton blue-bg white-text">HOST</div>
-                </div>
-            </div>
-<!--                circles for small and above-->
-            <div class="row justify-content-center d-none d-sm-flex">
-                <div class="col horizontal justify-content-center">
-                    <div class="circ rounded-circle anton red-bg white-text mr-md-4">DESIGN</div>
-                    <div class="circ rounded-circle anton orange-bg white-text mr-md-4">DEVELOP</div>
-                    <div class="circ rounded-circle anton green-bg white-text mr-md-4">SUPPORT</div>
-                    <div class="circ rounded-circle anton blue-bg white-text">HOST</div>
-                </div>
-            </div>
-<!--                horizontal breaks-->
-            <div class="row justify-content-center d-none d-sm-block">
-                <div class="col">
-<!--                    for small screen-->
-                    <hr class="width60 d-md-none">
-<!--                    for medium and larger-->
-                    <hr class="width90 d-none d-md-block">
-                </div>
-            </div>
-        </div>
-<!--                bottom card for mobile-->
-            <div class="container d-sm-none">
-<!--                section title-->
-                <div class="row mt-5">
-                    <div class="col text-center abel mb-3">SELECTED WORK</div>
-                </div>
-<!--                card for image and icons-->
-                <div class="card ml-auto mr-auto border-0 " style="width: 232px;">
-                    <img class="card-img-top pic" src="img/apple-ipad.jpg" alt="">
-                    <div class="horizontal mt-1">
-                        <span class="abel justify-content-start">FEATURED PROJECT</span>
-                        <ul class="ml-auto">
-                            <li class="icon rounded-circle anton red-bg ml-1">D</li>
-                            <li class="icon rounded-circle anton orange-bg ml-1">D</li>
-                            <li class="icon rounded-circle anton green-bg ml-1">S</li>
-                            <li class="icon rounded-circle anton blue-bg ml-1">H</li>
-                        </ul>
+        <div class = "col-md-12 col-lg-9 p-0">
+    <!--           HEADER-->
+    <!--       setting logo for different displays-->
+            <img src="img/logo.png" alt="" class="logo-sm d-md-none">
+    <!--       white bar in header-->
+            <div class="container-fluid">
+                <div class="row bg-white mt-5 header-height justify-content-center">
+    <!--                nav bar for small screen-->
+                    <div class="col-5 d-none d-sm-block d-md-none text-center align-self-center mr-3"><a class = "abel" href="#">SERVICE</a>&emsp;&emsp;<a class = "abel" href="#">WORK</a></div>
+                    <div class="col-5 d-none d-sm-block d-md-none text-center align-self-center ml-3"><a href="#" class = "abel">BLOG</a>&emsp;&emsp;<a class = "abel" href="#">CONTACT</a></div>
+    <!--                company name for medium screen-->
+                    <div class="col d-none d-md-block d-lg-none align-self-center abel"><h3 class="m-0 pl-6">codeup design</h3></div>
+    <!--                company name for large screen-->
+                    <div class="col d-none d-lg-block align-self-center abel"><h3 class="m-0 ml-5 pl-5">codeup design</h3></div>
+    <!--                nav bar for medium and larger screens-->
+                    <div class="col d-none d-md-block align-self-center">
+                        <nav>
+                            <ul class="justify-content-end m-0">
+                                <li class="pl-4"><a href="#" class="abel">SERVICES</a></li>
+                                <li class="pl-4"><a href="#" class="abel">WORK</a></li>
+                                <li class="pl-4"><a href="#" class="abel">BLOG</a></li>
+                                <li class="pl-4 mr-3"><a href="#" class="abel">CONTACT</a></li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </div>
-<!--bottom cards for small and up-->
-            <div class="d-none d-sm-block d-md-none mt-5 mb-5  abel text-center">SELECTED WORK</div>
-            <div class="row d-none d-sm-flex no-gutters m-0 left15px">
-<!--                card for image and icons-->
-                <div class="col p-0">
-                    <div class="card border-0 ml-auto mr-4 ml-lg-0 mr-lg-0 " style="width: 232px;">
-                        <div class="abel mt-5 mb-3 d-none d-sm-none d-md-block">SELECTED WORK</div>
+    <!--        company name and navbar for mobile-->
+            <div class="container d-md-none">
+    <!--               mobile's company name-->
+                <div class="row text-center mt-4">
+                    <div class="col"><h1 class="abel">codeup design</h1></div>
+                </div>
+    <!--               mobile's navbar-->
+                <div class="row text-center mt-3 d-sm-none">
+                    <div class="col"></div>
+                    <div class="col"><a href="#" class="abel mr-3">SERVICES</a><a href="#" class="abel mr-3">WORK</a><a href="#" class="abel mr-3">BLOG</a><a href="#" class="abel">CONTACT</a></div>
+                    <div class="col"></div>
+                </div>
+            </div>
+    <!--        page title for all displays-->
+            <div class="container-fluid">
+                <div class="row text-center mt-5">
+                    <div class="col"><h1 class="anton">VISUAL DESIGN & WEB DEVELOPMENT</h1></div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <!--        city for all displays-->
+                <div class="row text-center mt-5 mt-sm-3">
+                    <div class="col"><h3 class="anton">FROM PARK CITY, UTAH</h3></div>
+                </div>
+    <!--                cicles for mobile-->
+                <div class="row justify-content-center d-sm-none mt-3">
+                    <div class="col-12 horizontal justify-content-center">
+                        <div class="circ rounded-circle anton red-bg white-text">DESIGN</div>
+                        <div class="circ rounded-circle anton orange-bg white-text">DEVELOP</div>
+                    </div>
+                    <div class="col-12 horizontal justify-content-center mb-5 ">
+                        <div class="circ rounded-circle anton green-bg white-text">SUPPORT</div>
+                        <div class="circ rounded-circle anton blue-bg white-text">HOST</div>
+                    </div>
+                </div>
+    <!--                circles for small and above-->
+                <div class="row justify-content-center d-none d-sm-flex">
+                    <div class="col horizontal justify-content-center">
+                        <div class="circ rounded-circle anton red-bg white-text mr-md-4">DESIGN</div>
+                        <div class="circ rounded-circle anton orange-bg white-text mr-md-4">DEVELOP</div>
+                        <div class="circ rounded-circle anton green-bg white-text mr-md-4">SUPPORT</div>
+                        <div class="circ rounded-circle anton blue-bg white-text">HOST</div>
+                    </div>
+                </div>
+    <!--                horizontal breaks-->
+                <div class="row justify-content-center d-none d-sm-block">
+                    <div class="col">
+    <!--                    for small screen-->
+                        <hr class="width60 d-md-none">
+    <!--                    for medium and larger-->
+                        <hr class="width90 d-none d-md-block">
+                    </div>
+                </div>
+            </div>
+    <!--                bottom card for mobile-->
+                <div class="container d-sm-none">
+    <!--                section title-->
+                    <div class="row mt-5">
+                        <div class="col text-center abel mb-3">SELECTED WORK</div>
+                    </div>
+    <!--                card for image and icons-->
+                    <div class="card ml-auto mr-auto border-0 " style="width: 232px;">
                         <img class="card-img-top pic" src="img/apple-ipad.jpg" alt="">
                         <div class="horizontal mt-1">
                             <span class="abel justify-content-start">FEATURED PROJECT</span>
@@ -144,79 +125,98 @@
                             </ul>
                         </div>
                     </div>
-<!--                    card for image and icons-->
-                    <div class="card border-0 ml-auto mr-4 ml-lg-0 mr-lg-0 mt-4" style="width: 232px;">
-                        <img class="card-img-top pic" src="img/man.jpg" alt="">
-                        <div class="horizontal mt-1">
-                            <span class="abel justify-content-start">FEATURED PROJECT</span>
-                            <ul class="ml-auto">
-                                <li class="icon rounded-circle anton red-bg ml-1">D</li>
-                                <li class="icon rounded-circle anton orange-bg ml-1">D</li>
-                                <li class="icon rounded-circle anton green-bg ml-1">S</li>
-                                <li class="icon rounded-circle anton blue-bg ml-1">H</li>
-                            </ul>
+                </div>
+    <!--bottom cards for small and up-->
+                <div class="d-none d-sm-block d-md-none mt-5 mb-5  abel text-center">SELECTED WORK</div>
+                <div class="row d-none d-sm-flex no-gutters m-0 left15px">
+    <!--                card for image and icons-->
+                    <div class="col p-0">
+                        <div class="card border-0 ml-auto mr-4 ml-lg-0 mr-lg-0 " style="width: 232px;">
+                            <div class="abel mt-5 mb-3 d-none d-sm-none d-md-block">SELECTED WORK</div>
+                            <img class="card-img-top pic" src="img/apple-ipad.jpg" alt="">
+                            <div class="horizontal mt-1">
+                                <span class="abel justify-content-start">FEATURED PROJECT</span>
+                                <ul class="ml-auto">
+                                    <li class="icon rounded-circle anton red-bg ml-1">D</li>
+                                    <li class="icon rounded-circle anton orange-bg ml-1">D</li>
+                                    <li class="icon rounded-circle anton green-bg ml-1">S</li>
+                                    <li class="icon rounded-circle anton blue-bg ml-1">H</li>
+                                </ul>
+                            </div>
+                        </div>
+    <!--                    card for image and icons-->
+                        <div class="card border-0 ml-auto mr-4 ml-lg-0 mr-lg-0 mt-4" style="width: 232px;">
+                            <img class="card-img-top pic" src="img/man.jpg" alt="">
+                            <div class="horizontal mt-1">
+                                <span class="abel justify-content-start">FEATURED PROJECT</span>
+                                <ul class="ml-auto">
+                                    <li class="icon rounded-circle anton red-bg ml-1">D</li>
+                                    <li class="icon rounded-circle anton orange-bg ml-1">D</li>
+                                    <li class="icon rounded-circle anton green-bg ml-1">S</li>
+                                    <li class="icon rounded-circle anton blue-bg ml-1">H</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col right-zero">
-                    <div class="abel mt-5 mb-3 d-none d-sm-none d-md-block right-zero">&emsp;</div>
-<!--                    card for image and icons-->
-                    <div class="card border-0 mr-0 right-zero" style="width: 242px;">
-                        <img class="card-img-top pic" src="img/macbook.jpg" alt="">
-                        <div class="horizontal mt-1">
-                            <span class="abel justify-content-start">FEATURED PROJECT</span>
-                            <ul class="ml-auto">
-                                <li class="icon rounded-circle anton red-bg ml-1">D</li>
-                                <li class="icon rounded-circle anton orange-bg ml-1">D</li>
-                                <li class="icon rounded-circle anton green-bg ml-1">S</li>
-                                <li class="icon rounded-circle anton blue-bg ml-1">H</li>
-                            </ul>
+                    <div class="col right-zero">
+                        <div class="abel mt-5 mb-3 d-none d-sm-none d-md-block right-zero">&emsp;</div>
+    <!--                    card for image and icons-->
+                        <div class="card border-0 mr-0 right-zero" style="width: 242px;">
+                            <img class="card-img-top pic" src="img/macbook.jpg" alt="">
+                            <div class="horizontal mt-1">
+                                <span class="abel justify-content-start">FEATURED PROJECT</span>
+                                <ul class="ml-auto">
+                                    <li class="icon rounded-circle anton red-bg ml-1">D</li>
+                                    <li class="icon rounded-circle anton orange-bg ml-1">D</li>
+                                    <li class="icon rounded-circle anton green-bg ml-1">S</li>
+                                    <li class="icon rounded-circle anton blue-bg ml-1">H</li>
+                                </ul>
+                            </div>
+                        </div>
+    <!--                    card for image and icons-->
+                        <div class="card border-0 mt-4 mr-0" style="width: 232px;">
+                            <img class="card-img-top pic" src="img/security.jpg" alt="">
+                            <div class="horizontal mt-1">
+                                <span class="abel justify-content-start">FEATURED PROJECT</span>
+                                <ul class="ml-auto">
+                                    <li class="icon rounded-circle anton red-bg ml-1">D</li>
+                                    <li class="icon rounded-circle anton orange-bg ml-1">D</li>
+                                    <li class="icon rounded-circle anton green-bg ml-1">S</li>
+                                    <li class="icon rounded-circle anton blue-bg ml-1">H</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-<!--                    card for image and icons-->
-                    <div class="card border-0 mt-4 mr-0" style="width: 232px;">
-                        <img class="card-img-top pic" src="img/security.jpg" alt="">
-                        <div class="horizontal mt-1">
-                            <span class="abel justify-content-start">FEATURED PROJECT</span>
-                            <ul class="ml-auto">
-                                <li class="icon rounded-circle anton red-bg ml-1">D</li>
-                                <li class="icon rounded-circle anton orange-bg ml-1">D</li>
-                                <li class="icon rounded-circle anton green-bg ml-1">S</li>
-                                <li class="icon rounded-circle anton blue-bg ml-1">H</li>
-                            </ul>
+    <!--                column for articles and tweet-->
+                    <div class="col d-none d-md-block mr-auto p-0">
+                        <div class="abel mt-5 mb-3 ">THE LAST</div>
+    <!--                    articles-->
+                        <div class="articles mt-3">
+                            <img src="img/mobile-phone.jpg" class="pic" alt=""><h4 class="anton ml-1">THE ADMIN BAR AND ABSOLUTE POSITIONING</h4>
                         </div>
+                        <div class="articles">
+                            <img src="img/head.jpg" class="pic" alt=""><h4 class="anton ml-1 ">NIBBLER AWESOME WEBSITE TESTING</h4>
+                        </div>
+                        <div class="articles mb-5">
+                            <img src="img/ipad.jpg" class="pic" alt=""><h4 class="anton ml-1 ">HOW TO GET GOOGLE TO LIKE YOU</h4>
+                        </div>
+    <!--                    tweet-->
+                        <div>
+                            <p class="last abel"><i class="fab fa-twitter mr-2"></i><strong>LAST TWEET</strong></p>
+                        </div>
+                        <p class="tweet abel">
+                            Lorem ipsum dolor sit amet, consectectuer adipis-cing elit, sed diam nonummy nibh euismod sorem ipsum dolor sit amet, consectetuer adipiscing.
+                        </p>
                     </div>
                 </div>
-<!--                column for articles and tweet-->
-                <div class="col d-none d-md-block mr-auto p-0">
-                    <div class="abel mt-5 mb-3 ">THE LAST</div>
-<!--                    articles-->
-                    <div class="articles mt-3">
-                        <img src="img/mobile-phone.jpg" class="pic" alt=""><h4 class="anton ml-1">THE ADMIN BAR AND ABSOLUTE POSITIONING</h4>
-                    </div>
-                    <div class="articles">
-                        <img src="img/head.jpg" class="pic" alt=""><h4 class="anton ml-1 ">NIBBLER AWESOME WEBSITE TESTING</h4>
-                    </div>
-                    <div class="articles mb-5">
-                        <img src="img/ipad.jpg" class="pic" alt=""><h4 class="anton ml-1 ">HOW TO GET GOOGLE TO LIKE YOU</h4>
-                    </div>
-<!--                    tweet-->
-                    <div>
-                        <p class="last abel"><i class="fab fa-twitter mr-2"></i><strong>LAST TWEET</strong></p>
-                    </div>
-                    <p class="tweet abel">
-                        Lorem ipsum dolor sit amet, consectectuer adipis-cing elit, sed diam nonummy nibh euismod sorem ipsum dolor sit amet, consectetuer adipiscing.
-                    </p>
-                </div>
+        </div>
+    <!--    extend white bar to encompass columns-->
+        <div class="d-none d-lg-block col p-0">
+            <div class="container-fluid">
+                <div class="row bg-white mt-5 header-height justify-content-center"></div>
             </div>
-    </div>
-<!--    extend white bar to encompass columns-->
-    <div class="d-none d-lg-block col p-0">
-        <div class="container-fluid">
-            <div class="row bg-white mt-5 header-height justify-content-center"></div>
         </div>
     </div>
-</div>
 <!--bootstrap javascript-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
